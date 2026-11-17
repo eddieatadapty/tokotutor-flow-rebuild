@@ -1,0 +1,75 @@
+{
+  "flows": [
+    {
+      "channel": "Meta",
+      "headline": "Too old to speak English fluently? You’re wrong!",
+      "paywall_opens_on": "Annual with 7 days free, after a slow first conversation with Jamie",
+      "note": "asks “What would help you most when you speak English?” and leads the paywall with the proof card and 海豹俠’s review"
+    },
+    {
+      "channel": "Meta",
+      "headline": "Fluent in English, without wasting time or money",
+      "paywall_opens_on": "Annual with 7 days free, after a grammar fix in the first two minutes",
+      "note": "asks “What’s your daily practice goal?” and prices it: $10.00 a month, about $0.33 a day"
+    },
+    {
+      "channel": "Meta",
+      "headline": "7 days a week, English that keeps growing",
+      "paywall_opens_on": "Annual with 7 days free, after Monday’s 5-minute vocab warm-up",
+      "note": "trial timeline: Today, Day 5, Day 7"
+    }
+  ],
+  "prices": {
+    "yearly": "$119.99",
+    "monthly": "$24.99",
+    "offer": "$99.99 a year",
+    "trial": "7 days",
+    "source": "US App Store listing, In-App Purchases (“Annual Subscription”, “Monthly Subscription”, “(Legacy) Annual Subscription”); the 7 days free from their Meta ads (新用戶7天免費試用)"
+  },
+  "today": {
+    "text": "every install answers the daily-goal question, gets the iOS notification prompt and “Do you like Toko?”, then meets one paywall, “Start learning today”, with Monthly preselected and “Start Monthly plan”",
+    "source": "audit_frames"
+  },
+  "asks": [
+    "What would help you most when you speak English?",
+    "What’s your daily practice goal?",
+    "What time should I remind you to practice?"
+  ],
+  "paywall": {
+    "headline": "It’s not too late. Speak English at your own pace.",
+    "uses_answers": true
+  },
+  "rebuild": "each Meta ad opens its own first screens and a first conversation or lesson before any price; the paywall keeps the ad’s promise, selects Annual with 7 days free, and ✕ opens one $99.99 yearly offer",
+  "ideas": [
+    {
+      "n": 1,
+      "title": "Say what they told you, on the paywall",
+      "screen": "Paywall",
+      "outcome": "CR +15–20%"
+    },
+    {
+      "n": 2,
+      "title": "A first conversation before the price",
+      "screen": "First win",
+      "outcome": "CR +10–20%"
+    },
+    {
+      "n": 3,
+      "title": "Keep the free promise on the paywall",
+      "screen": "Paywall",
+      "outcome": "ARPU +10–15%"
+    },
+    {
+      "n": 4,
+      "title": "Reminders after the paywall, not before",
+      "screen": "Reminders",
+      "outcome": "CR +10–15%"
+    },
+    {
+      "n": 5,
+      "title": "Catch the people who close",
+      "screen": "On close",
+      "outcome": "ARPU +10–15%"
+    }
+  ]
+}
